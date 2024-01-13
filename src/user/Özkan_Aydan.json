@@ -1,0 +1,56 @@
+{
+  "gender": "male",
+  "name": {
+    "title": "Mr",
+    "first": "Özkan",
+    "last": "Aydan"
+  },
+  "location": {
+    "street": {
+      "number": 3566,
+      "name": "Mevlana Cd"
+    },
+    "city": "Uşak",
+    "state": "Tokat",
+    "country": "Turkey",
+    "postcode": 17272,
+    "coordinates": {
+      "latitude": "64.8574",
+      "longitude": "-12.3051"
+    },
+    "timezone": {
+      "offset": "+4:00",
+      "description": "Abu Dhabi, Muscat, Baku, Tbilisi"
+    }
+  },
+  "email": "ozkan.aydan@example.com",
+  "login": {
+    "uuid": "e2a5ecb1-9db5-4b06-95eb-e8c62d391628",
+    "username": "tinypeacock892",
+    "password": "faith1",
+    "salt": "J3SwUbzh",
+    "md5": "3311e9a0f2f3d126b748acdf5f8006c6",
+    "sha1": "81ed394973e04a1b26398e5f74e98afcdd68c2a3",
+    "sha256": "71ee142766ce3ac4190f94b72ac34474e88a8cb496f360df284cbcc8eb9bf4ab"
+  },
+  "dob": {
+    "date": "1975-05-21T01:12:42.248Z",
+    "age": 48
+  },
+  "registered": {
+    "date": "2017-07-26T07:29:58.672Z",
+    "age": 6
+  },
+  "phone": "(182)-503-1550",
+  "cell": "(142)-644-5583",
+  "id": {
+    "name": "",
+    "value": null
+  },
+  "picture": {
+    "large": "https://randomuser.me/api/portraits/men/43.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/men/43.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/43.jpg"
+  },
+  "nat": "TR"
+}
