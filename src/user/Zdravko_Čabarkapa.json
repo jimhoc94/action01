@@ -1,0 +1,56 @@
+{
+  "gender": "male",
+  "name": {
+    "title": "Mr",
+    "first": "Zdravko",
+    "last": "Čabarkapa"
+  },
+  "location": {
+    "street": {
+      "number": 5278,
+      "name": "Vasa Ćukovića "
+    },
+    "city": "Sjenica",
+    "state": "Pomoravlje",
+    "country": "Serbia",
+    "postcode": 18894,
+    "coordinates": {
+      "latitude": "61.8701",
+      "longitude": "-84.8693"
+    },
+    "timezone": {
+      "offset": "+3:00",
+      "description": "Baghdad, Riyadh, Moscow, St. Petersburg"
+    }
+  },
+  "email": "zdravko.cabarkapa@example.com",
+  "login": {
+    "uuid": "f198eb91-21a6-46a6-8a01-cbce46eed10e",
+    "username": "angrybutterfly819",
+    "password": "nothing",
+    "salt": "hgPyyNxF",
+    "md5": "456ff0ac1428e73d1209cb83d26521d3",
+    "sha1": "85eed95a8901294ab3d2f7e5b2802aca9d7ccaf3",
+    "sha256": "72ea70e6cf17abb726589c629e65a8df72b84efac49cc7cd271b3edcb57457e2"
+  },
+  "dob": {
+    "date": "1984-06-21T07:37:40.458Z",
+    "age": 39
+  },
+  "registered": {
+    "date": "2018-02-19T18:57:50.390Z",
+    "age": 5
+  },
+  "phone": "014-8981-091",
+  "cell": "062-9895-494",
+  "id": {
+    "name": "SID",
+    "value": "446880014"
+  },
+  "picture": {
+    "large": "https://randomuser.me/api/portraits/men/93.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/men/93.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/93.jpg"
+  },
+  "nat": "RS"
+}
