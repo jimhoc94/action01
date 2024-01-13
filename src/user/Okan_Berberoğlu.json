@@ -1,0 +1,56 @@
+{
+  "gender": "male",
+  "name": {
+    "title": "Mr",
+    "first": "Okan",
+    "last": "Berberoğlu"
+  },
+  "location": {
+    "street": {
+      "number": 2635,
+      "name": "Necatibey Cd"
+    },
+    "city": "Kırşehir",
+    "state": "Tokat",
+    "country": "Turkey",
+    "postcode": 40194,
+    "coordinates": {
+      "latitude": "70.8406",
+      "longitude": "-83.3151"
+    },
+    "timezone": {
+      "offset": "+9:00",
+      "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+    }
+  },
+  "email": "okan.berberoglu@example.com",
+  "login": {
+    "uuid": "d3d487b5-6cb5-4bf5-bfa2-5915bad51246",
+    "username": "purpledog437",
+    "password": "wombat",
+    "salt": "yWSuS0vT",
+    "md5": "c299c1f4441e0c89cd96f120163e9bfa",
+    "sha1": "50ef7a988b47ea6fc53f668bc3355a31cbb2dd77",
+    "sha256": "42ff3c898a602e3132ef004cd434010bb209a46233b1d1e68683cc349c35073b"
+  },
+  "dob": {
+    "date": "1980-02-01T03:29:28.717Z",
+    "age": 43
+  },
+  "registered": {
+    "date": "2003-11-09T03:48:01.450Z",
+    "age": 20
+  },
+  "phone": "(768)-311-2383",
+  "cell": "(631)-129-2326",
+  "id": {
+    "name": "",
+    "value": null
+  },
+  "picture": {
+    "large": "https://randomuser.me/api/portraits/men/31.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/men/31.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/31.jpg"
+  },
+  "nat": "TR"
+}
