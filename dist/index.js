@@ -37492,7 +37492,7 @@ const main = async () => {
       .get("https://randomuser.me/api/?results=10")
       .then(function (response) {
         // handle success
-        core.info(response);
+        core.info(JSON.stringify(response));
       })
       .catch(function (error) {
         // handle error
