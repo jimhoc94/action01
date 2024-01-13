@@ -1,0 +1,9 @@
+name: "Action01"
+description: "Hello World action"
+inputs:
+  owner:
+    description: "The owner of the repository"
+    required: true
+runs:
+  using: "node16"
+  main: "index.js"
