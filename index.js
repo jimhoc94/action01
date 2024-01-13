@@ -24,8 +24,10 @@ const main = async () => {
 
         if (!fs.existsSync(dir)) {
           fs.mkdirSync(dir, { recursive: true });
-          fs.writeFileSync(dir + "/" + title + ".json", JSON.stringify(data));
         }
+        let fileName = dir + "/" + title + ".json";
+        core.info(`Writting, ${fileName}`);
+        fs.writeFileSync(fileName, JSON.stringify(data));
         //core.info(JSON.stringify(data));
       })
       .catch(function (error) {
