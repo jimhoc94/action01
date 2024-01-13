@@ -1,0 +1,56 @@
+{
+  "gender": "female",
+  "name": {
+    "title": "Mrs",
+    "first": "Elfriede",
+    "last": "Warnecke"
+  },
+  "location": {
+    "street": {
+      "number": 3612,
+      "name": "Eichenweg"
+    },
+    "city": "Augsburg",
+    "state": "Niedersachsen",
+    "country": "Germany",
+    "postcode": 46571,
+    "coordinates": {
+      "latitude": "-55.0804",
+      "longitude": "57.5876"
+    },
+    "timezone": {
+      "offset": "+11:00",
+      "description": "Magadan, Solomon Islands, New Caledonia"
+    }
+  },
+  "email": "elfriede.warnecke@example.com",
+  "login": {
+    "uuid": "4e9f5408-66ae-406d-bf0d-c12967811568",
+    "username": "smallpeacock200",
+    "password": "1124",
+    "salt": "AP5byZU8",
+    "md5": "feccfa9b9eb4a374bf5790728981af03",
+    "sha1": "ceaedd91c2fc4f794ea877b34a0d9b8b3754f2a3",
+    "sha256": "dc479a83a96f50708bc5c951cd40e4978c10f14cdd1a972ae19f7396056dc7f1"
+  },
+  "dob": {
+    "date": "1954-02-11T18:02:53.760Z",
+    "age": 69
+  },
+  "registered": {
+    "date": "2014-07-01T08:16:43.617Z",
+    "age": 9
+  },
+  "phone": "0451-0345026",
+  "cell": "0177-2571596",
+  "id": {
+    "name": "SVNR",
+    "value": "10 110254 W 969"
+  },
+  "picture": {
+    "large": "https://randomuser.me/api/portraits/women/38.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/women/38.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/38.jpg"
+  },
+  "nat": "DE"
+}

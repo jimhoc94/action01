@@ -1,0 +1,56 @@
+{
+  "gender": "male",
+  "name": {
+    "title": "Mr",
+    "first": "Nakul",
+    "last": "Kaur"
+  },
+  "location": {
+    "street": {
+      "number": 8884,
+      "name": "Sampige Rd"
+    },
+    "city": "Ichalkaranji",
+    "state": "Delhi",
+    "country": "India",
+    "postcode": 82061,
+    "coordinates": {
+      "latitude": "5.4830",
+      "longitude": "-64.3093"
+    },
+    "timezone": {
+      "offset": "+5:45",
+      "description": "Kathmandu"
+    }
+  },
+  "email": "nakul.kaur@example.com",
+  "login": {
+    "uuid": "a6bec64c-89de-4a05-954d-fd83be7e7341",
+    "username": "crazyswan986",
+    "password": "fatcat",
+    "salt": "IKZ5QcwM",
+    "md5": "6e66ad68f4a4a0cc721a6d7543128871",
+    "sha1": "56a6b9a6979150b0d08881c6dff98d7ea5fa8944",
+    "sha256": "7a3e77d8c463a7509a7f8a9eb96fe3d15d9f1407e0127014c3693bd4762896e7"
+  },
+  "dob": {
+    "date": "1992-06-05T18:43:03.259Z",
+    "age": 31
+  },
+  "registered": {
+    "date": "2012-09-11T06:14:38.154Z",
+    "age": 11
+  },
+  "phone": "9948422098",
+  "cell": "9495943555",
+  "id": {
+    "name": "UIDAI",
+    "value": "148113068259"
+  },
+  "picture": {
+    "large": "https://randomuser.me/api/portraits/men/24.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/men/24.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/24.jpg"
+  },
+  "nat": "IN"
+}
