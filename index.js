@@ -1,5 +1,6 @@
 const core = require("@actions/core");
 const github = require("@actions/github");
+const axios = require("axios");
 
 const main = async () => {
   try {
@@ -10,6 +11,20 @@ const main = async () => {
     const owner = core.getInput("owner", { required: true });
     core.info(`Hello, ${owner}!`);
 
+    axios
+      .get("https://randomuser.me/api/?results=10")
+      .then(function (response) {
+        // handle success
+        core.info(response);
+      })
+      .catch(function (error) {
+        // handle error
+        core.error(error);
+      })
+      .finally(function () {
+        // always executed
+      });
+    /*
     var request = new Request("https://randomuser.me/api/?results=10", {
       method: "GET",
       headers: new Headers({
@@ -25,6 +40,7 @@ const main = async () => {
       .catch((error) => {
         core.error(error);
       });
+      */
   } catch (error) {
     core.setFailed(error.message);
   }
