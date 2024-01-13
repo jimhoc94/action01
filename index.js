@@ -15,7 +15,9 @@ const main = async () => {
       .get("https://randomuser.me/api/?results=1")
       .then(function (response) {
         // handle success
-        core.info(response.data.results[0].gender);
+        const first = response.data.results[0].first;
+        const title = response.data.results[0].title;
+        core.info(`Hello, ${title} ${first}!`);
       })
       .catch(function (error) {
         // handle error
