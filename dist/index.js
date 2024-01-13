@@ -37501,7 +37501,7 @@ const main = async () => {
 
         if (!fs.existsSync(dir)) {
           fs.mkdirSync(dir, { recursive: true });
-          fs.writeFileSync("dir/" + title + ".json", JSON.stringify(data));
+          fs.writeFileSync(dir + "/" + title + ".json", JSON.stringify(data));
         }
         //core.info(JSON.stringify(data));
       })
