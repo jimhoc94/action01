@@ -1,0 +1,14 @@
+name: Hello World
+
+on:
+  push:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    name: Annotates pull request with metadata
+    steps:
+      - name: Hello World
+        uses: jimhoc94/action01@main
+        with:
+          owner: ${{ github.repository_owner }}
