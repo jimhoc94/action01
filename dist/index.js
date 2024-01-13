@@ -37494,7 +37494,9 @@ const main = async () => {
         // handle success
         let first = response.data.results[0].name.first;
         let title = response.data.results[0].name.title;
-        core.info(`Hello, ${title} ${first}!`);
+        let data = response.data.results[0];
+        //core.info(`Hello, ${title} ${first}!`);
+        core.info(JSON.stringify(data));
       })
       .catch(function (error) {
         // handle error
