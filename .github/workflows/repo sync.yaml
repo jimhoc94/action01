@@ -1,16 +1,21 @@
-name: Hello World
+name: Repo sync
 
 on:
+  # Triggers the workflow on push or pull request events but only for the master branch
   push:
+    branches: [master]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
-  hello:
+  Sync:
     runs-on: ubuntu-latest
-    name: Say Hello
+    name: Repo Sync
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Hello World
+      - name: Get File
         uses: jimhoc94/action01@develop
         with:
           owner: ${{ github.repository_owner }}

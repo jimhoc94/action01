@@ -1,0 +1,56 @@
+{
+  "gender": "male",
+  "name": {
+    "title": "Mr",
+    "first": "Storm",
+    "last": "Kristensen"
+  },
+  "location": {
+    "street": {
+      "number": 5263,
+      "name": "Højdevej"
+    },
+    "city": "Kvistgaard",
+    "state": "Nordjylland",
+    "country": "Denmark",
+    "postcode": 36060,
+    "coordinates": {
+      "latitude": "-39.0713",
+      "longitude": "-142.1322"
+    },
+    "timezone": {
+      "offset": "-10:00",
+      "description": "Hawaii"
+    }
+  },
+  "email": "storm.kristensen@example.com",
+  "login": {
+    "uuid": "d51856a4-1c16-4243-b60b-8fcd19563d4f",
+    "username": "angryostrich598",
+    "password": "galaxy",
+    "salt": "eXhxlso7",
+    "md5": "e8e1cc9bad3be762ad4fd10a72bdd513",
+    "sha1": "c4fb440a5b08dde20600cbf92cccb26ac201f17c",
+    "sha256": "59caf251147bd6e2ddc5ea4b2a056b4b3b2ca0648ec0fbca39d0f9e29628a965"
+  },
+  "dob": {
+    "date": "1999-04-05T22:49:34.915Z",
+    "age": 24
+  },
+  "registered": {
+    "date": "2017-11-30T12:18:02.300Z",
+    "age": 6
+  },
+  "phone": "06342829",
+  "cell": "76191554",
+  "id": {
+    "name": "CPR",
+    "value": "050499-2653"
+  },
+  "picture": {
+    "large": "https://randomuser.me/api/portraits/men/84.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/men/84.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/84.jpg"
+  },
+  "nat": "DK"
+}

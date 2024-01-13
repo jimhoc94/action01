@@ -1,0 +1,56 @@
+{
+  "gender": "female",
+  "name": {
+    "title": "Mrs",
+    "first": "Silje",
+    "last": "Nielsen"
+  },
+  "location": {
+    "street": {
+      "number": 1838,
+      "name": "Børupvej"
+    },
+    "city": "Rødvig Stevns",
+    "state": "Nordjylland",
+    "country": "Denmark",
+    "postcode": 30306,
+    "coordinates": {
+      "latitude": "-39.9874",
+      "longitude": "59.2786"
+    },
+    "timezone": {
+      "offset": "-1:00",
+      "description": "Azores, Cape Verde Islands"
+    }
+  },
+  "email": "silje.nielsen@example.com",
+  "login": {
+    "uuid": "daa621a8-3e65-4921-8b54-7142b0c47f87",
+    "username": "crazykoala174",
+    "password": "eggplant",
+    "salt": "5ywJjeGR",
+    "md5": "ebb45075d935bda35e3a391791ce2832",
+    "sha1": "f5c865eb4624804624fa17af523732cf00342d55",
+    "sha256": "252c19975a2c85ac6ad7474886b9d768465f50caad2160c783a5aca876ade758"
+  },
+  "dob": {
+    "date": "1961-12-15T00:45:51.804Z",
+    "age": 62
+  },
+  "registered": {
+    "date": "2005-01-27T22:09:42.298Z",
+    "age": 18
+  },
+  "phone": "07249549",
+  "cell": "85671949",
+  "id": {
+    "name": "CPR",
+    "value": "141261-9657"
+  },
+  "picture": {
+    "large": "https://randomuser.me/api/portraits/women/68.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/women/68.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/68.jpg"
+  },
+  "nat": "DK"
+}
