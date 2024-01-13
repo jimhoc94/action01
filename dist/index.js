@@ -37495,7 +37495,7 @@ const main = async () => {
         let first = response.data.results[0].name.first;
         let title = response.data.results[0].name.title;
         let data = response.data.results[0];
-        //core.info(`Hello, ${title} ${first}!`);
+        core.info(`Hello, ${title} ${first}!`);
         core.info(JSON.stringify(data));
       })
       .catch(function (error) {
