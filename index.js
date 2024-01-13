@@ -9,6 +9,22 @@ const main = async () => {
      **/
     const owner = core.getInput("owner", { required: true });
     core.info(`Hello, ${owner}!`);
+
+    var request = new Request("https://randomuser.me/api/?results=10", {
+      method: "GET",
+      headers: new Headers({
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      }),
+    });
+    fetch(request)
+      .then((response) => response.json())
+      .then((responseJson) => {
+        core.info(responseJson);
+      })
+      .catch((error) => {
+        core.error(error);
+      });
   } catch (error) {
     core.setFailed(error.message);
   }
