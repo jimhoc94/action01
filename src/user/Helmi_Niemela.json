@@ -1,0 +1,56 @@
+{
+  "gender": "female",
+  "name": {
+    "title": "Miss",
+    "first": "Helmi",
+    "last": "Niemela"
+  },
+  "location": {
+    "street": {
+      "number": 4992,
+      "name": "Satakennankatu"
+    },
+    "city": "Pargas",
+    "state": "Lapland",
+    "country": "Finland",
+    "postcode": 59534,
+    "coordinates": {
+      "latitude": "-23.7464",
+      "longitude": "76.7769"
+    },
+    "timezone": {
+      "offset": "-9:00",
+      "description": "Alaska"
+    }
+  },
+  "email": "helmi.niemela@example.com",
+  "login": {
+    "uuid": "49327c94-8e5d-4b64-b2fb-e7f42e650d3e",
+    "username": "redtiger512",
+    "password": "wings",
+    "salt": "4vZRAqTk",
+    "md5": "821de6ce91a1bc0b5609b17f7a764f47",
+    "sha1": "4f5b69990af87a5ab0541c0f6ba108323606aba8",
+    "sha256": "df7515fd0f30ce3c02b30c037b5253daebaebf385025ce96e214e5ce1f72a91d"
+  },
+  "dob": {
+    "date": "1999-10-22T21:52:51.992Z",
+    "age": 24
+  },
+  "registered": {
+    "date": "2008-02-19T19:13:05.624Z",
+    "age": 15
+  },
+  "phone": "09-430-828",
+  "cell": "040-984-77-19",
+  "id": {
+    "name": "HETU",
+    "value": "NaNNA788undefined"
+  },
+  "picture": {
+    "large": "https://randomuser.me/api/portraits/women/13.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/women/13.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/13.jpg"
+  },
+  "nat": "FI"
+}
