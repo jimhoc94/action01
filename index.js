@@ -28,7 +28,7 @@ const main = async () => {
         }
         let fileName = dir + "/" + first + "_" + last + ".json";
         core.info(`Writting, ${fileName}`);
-        fs.writeFileSync(fileName, JSON.stringify(data, 2));
+        fs.writeFileSync(fileName, JSON.stringify(data, null, 2));
         //core.info(JSON.stringify(data));
       })
       .catch(function (error) {
