@@ -6,7 +6,7 @@ on:
 jobs:
   hello:
     runs-on: ubuntu-latest
-    name: Annotates pull request with metadata
+    name: Say Hello
     steps:
       - name: Hello World
         uses: jimhoc94/action01@main
