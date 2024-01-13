@@ -37489,10 +37489,10 @@ const main = async () => {
     core.info(`Hello, ${owner}!`);
 
     axios
-      .get("https://randomuser.me/api/?results=10")
+      .get("https://randomuser.me/api/?results=1")
       .then(function (response) {
         // handle success
-        core.info(JSON.stringify(response));
+        core.info(response.results[0].gender);
       })
       .catch(function (error) {
         // handle error
