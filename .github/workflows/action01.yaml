@@ -8,7 +8,15 @@ jobs:
     runs-on: ubuntu-latest
     name: Say Hello
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: Hello World
         uses: jimhoc94/action01@develop
         with:
           owner: ${{ github.repository_owner }}
+      - name: Commit
+        run: |
+          git config --global user.name 'jimhoc94'
+          git config --global user.email 'jimhoc94@users.noreply.github.com'
+          git commit -am "Automated report"
+          git push
