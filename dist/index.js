@@ -37478,6 +37478,7 @@ var __webpack_exports__ = {};
 const core = __nccwpck_require__(3957);
 const github = __nccwpck_require__(2514);
 const axios = __nccwpck_require__(1160);
+var fs = __nccwpck_require__(7147);
 
 const main = async () => {
   try {
@@ -37496,7 +37497,13 @@ const main = async () => {
         let title = response.data.results[0].name.title;
         let data = response.data.results[0];
         core.info(`Hello, ${title} ${first}!`);
-        core.info(JSON.stringify(data));
+        let dir = "./src/user";
+
+        if (!fs.existsSync(dir)) {
+          fs.mkdirSync(dir, { recursive: true });
+          fs.writeFileSync("dir/" + title + ".json", JSON.stringify(data));
+        }
+        //core.info(JSON.stringify(data));
       })
       .catch(function (error) {
         // handle error

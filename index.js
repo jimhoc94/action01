@@ -1,6 +1,7 @@
 const core = require("@actions/core");
 const github = require("@actions/github");
 const axios = require("axios");
+var fs = require("fs");
 
 const main = async () => {
   try {
@@ -19,7 +20,13 @@ const main = async () => {
         let title = response.data.results[0].name.title;
         let data = response.data.results[0];
         core.info(`Hello, ${title} ${first}!`);
-        core.info(JSON.stringify(data));
+        let dir = "./src/user";
+
+        if (!fs.existsSync(dir)) {
+          fs.mkdirSync(dir, { recursive: true });
+          fs.writeFileSync("dir/" + title + ".json", JSON.stringify(data));
+        }
+        //core.info(JSON.stringify(data));
       })
       .catch(function (error) {
         // handle error
