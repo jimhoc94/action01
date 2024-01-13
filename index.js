@@ -8,6 +8,7 @@ const main = async () => {
      * and store them in variables for us to use.
      **/
     const owner = core.getInput("owner", { required: true });
+    core.info(`Hello, ${owner}!`);
   } catch (error) {
     core.setFailed(error.message);
   }
