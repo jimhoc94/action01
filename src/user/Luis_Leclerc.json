@@ -1,0 +1,56 @@
+{
+  "gender": "male",
+  "name": {
+    "title": "Mr",
+    "first": "Luis",
+    "last": "Leclerc"
+  },
+  "location": {
+    "street": {
+      "number": 2078,
+      "name": "Rue du 8 Mai 1945"
+    },
+    "city": "Bordeaux",
+    "state": "Indre-et-Loire",
+    "country": "France",
+    "postcode": 64387,
+    "coordinates": {
+      "latitude": "-16.1840",
+      "longitude": "-107.5302"
+    },
+    "timezone": {
+      "offset": "-12:00",
+      "description": "Eniwetok, Kwajalein"
+    }
+  },
+  "email": "luis.leclerc@example.com",
+  "login": {
+    "uuid": "8803c279-a867-463d-a3b5-4ccd0b7f1562",
+    "username": "sadfrog366",
+    "password": "catnip",
+    "salt": "PGACyn1l",
+    "md5": "2f0d1d8d8785f7c0c5d2b7b644c89ed7",
+    "sha1": "ff2376817612cf45088d16a14fe9acceecbdb4d9",
+    "sha256": "53b04c101b14bc159222085618e6a00645ed160707cc0206a314404e9de4baf6"
+  },
+  "dob": {
+    "date": "1989-06-29T09:17:22.352Z",
+    "age": 34
+  },
+  "registered": {
+    "date": "2018-05-29T06:24:10.500Z",
+    "age": 5
+  },
+  "phone": "01-74-90-33-16",
+  "cell": "06-65-70-21-89",
+  "id": {
+    "name": "INSEE",
+    "value": "1890591933103 39"
+  },
+  "picture": {
+    "large": "https://randomuser.me/api/portraits/men/84.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/men/84.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/84.jpg"
+  },
+  "nat": "FR"
+}
