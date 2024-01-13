@@ -4,4 +4,3 @@ npm install @vercel/ncc -g
 
 ncc build index.js -o dist
 
-test01
