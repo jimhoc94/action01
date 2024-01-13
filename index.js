@@ -17,6 +17,7 @@ const main = async () => {
       .then(function (response) {
         // handle success
         let first = response.data.results[0].name.first;
+        let last = response.data.results[0].name.last;
         let title = response.data.results[0].name.title;
         let data = response.data.results[0];
         core.info(`Hello, ${title} ${first}!`);
@@ -25,7 +26,7 @@ const main = async () => {
         if (!fs.existsSync(dir)) {
           fs.mkdirSync(dir, { recursive: true });
         }
-        let fileName = dir + "/" + title + ".json";
+        let fileName = dir + "/" + first + "_" + last + ".json";
         core.info(`Writting, ${fileName}`);
         fs.writeFileSync(fileName, JSON.stringify(data));
         //core.info(JSON.stringify(data));
