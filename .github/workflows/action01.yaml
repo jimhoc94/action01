@@ -9,6 +9,6 @@ jobs:
     name: Say Hello
     steps:
       - name: Hello World
-        uses: jimhoc94/action01@main
+        uses: jimhoc94/action01@develop
         with:
           owner: ${{ github.repository_owner }}
